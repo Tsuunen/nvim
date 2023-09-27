@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
   -- dependencies
   use("nvim-lua/plenary.nvim")
   use("nvim-tree/nvim-web-devicons")
+  use("MunifTanjim/nui.nvim")
 
   -- colorscheme
   use({
