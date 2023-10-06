@@ -69,4 +69,9 @@ return require('packer').startup(function(use)
 
   -- file explorer
   use({"nvim-neo-tree/neo-tree.nvim", branch = "v2.x"})
+
+  -- toggleterm
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+  end}
 end)

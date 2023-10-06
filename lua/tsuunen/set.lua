@@ -28,4 +28,6 @@ o.isfname:append("@-@")
 
 o.updatetime = 50
 
+-- o.splitright = true
+
 vim.g.mapleader = " "
