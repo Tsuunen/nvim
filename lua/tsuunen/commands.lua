@@ -15,7 +15,7 @@ local debug_build_commands = {
 local run_commands = {
   c = "%:p:r.o",
   cpp = "%:p:r.o",
-  rust = "cargo run --release",
+  rust = "cargo run",
   -- go = "%:p:r.o",
   go = "go run .",
 }

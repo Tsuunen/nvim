@@ -77,4 +77,7 @@ return require('packer').startup(function(use)
 
   -- rust tools
   use("simrat39/rust-tools.nvim")
+
+  -- live server
+  use("barrett-ruth/live-server.nvim")
 end)
