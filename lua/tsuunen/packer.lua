@@ -80,4 +80,6 @@ return require('packer').startup(function(use)
 
   -- live server
   use("barrett-ruth/live-server.nvim")
+
+  use("mfussenegger/nvim-jdtls")
 end)
