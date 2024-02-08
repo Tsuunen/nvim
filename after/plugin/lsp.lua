@@ -21,4 +21,6 @@ cmp.setup({
   }
 })
 
+lsp.skip_server_setup({'jdtls'})
+
 lsp.setup()
