@@ -9,7 +9,7 @@ return {
   },
 
   keys = {
-    {"<leader>e", "<cmd>Neotree toggle right<CR>"}
+    {"<leader>e", "<cmd>Neotree toggle float<CR>"}
   },
 
   config = function()
