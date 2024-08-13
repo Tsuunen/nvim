@@ -46,3 +46,5 @@ opt.splitbelow = true -- split horizontal window to the bottom
 opt.swapfile = false
 
 vim.g.mapleader = " "
+
+vim.keymap.set("n", "<leader>e", ":Ex<CR>")
